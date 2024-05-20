@@ -23,6 +23,7 @@
 .profile-img:hover {
     filter: saturate(100%);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .games-quantity {
