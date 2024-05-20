@@ -1,0 +1,35 @@
+.btn-primary {
+    background-color: var(--color-orange);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-ligth-orange);
+    border: none;
+}
+
+.btn-primary::after {
+    background-color: var(--color-ligth-orange);
+    border: none;
+}
+/* Estilo padrão para o botão */
+.custom-btn {
+    font-size: 20px; /* Tamanho do texto */
+    padding: 10px 20px; /* Preenchimento do botão */
+}
+
+/* Ajustar o tamanho do botão para telas menores */
+@media (max-width: 768px) {
+    .custom-btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+/* Ajustar o tamanho do botão para telas ainda menores */
+@media (max-width: 576px) {
+    .custom-btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}

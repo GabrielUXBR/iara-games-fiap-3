@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Pedro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/components/base.css">
+    <link rel="stylesheet" type="text/css" href="/components/style.css">
+    <link rel="stylesheet" type="text/css" href="/components/hero.css">
+    <link rel="stylesheet" type="text/css" href="/components/buttons.css">
+    <link rel="stylesheet" href="/components/profile.css">
+</head>
+
+<!---Colocar o menu lateral-->
+<header class="container-fluid navbar position-absolute z-1">
+    <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+        <a class="navbar-brand p-0 me-0 me-lg-2" href="/index.html" aria-label="Iara Games"><p class="brand">Iara <span>Games</span></p></a>
+        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+            <li class="nav-item col-6 col-lg-auto">
+                <a class="nav-link active py-2 px-0 px-lg-2" aria-current="page" href="/pages/authprocess/login.html">Login</a>
+            </li>
+            <li class="nav-item col-6 col-auto">
+                <a class="nav-link active py-2 px-0 px-lg-2" aria-current="page"" href="/pages/authprocess/register.html">Cadastre-se</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!---Section Hero-Vídeo-->
+<main class="container-fluid hero-video px- position-relative d-flex flex-column">
+    <video autoplay muted loop class="z-1000">
+        <source src="/assets/video/fundo-perfil-esther.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+    <div class="overlay"></div>
+    <div class="z-3 position-absolute bottom-0 ps-5 pb-5 mt-auto start-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="/assets/img/perfil-Pedro-hero.png" class="img-fluid rounded border" alt="">
+                </div>
+                <div class="col-12 col-md-8 col-lg-9">
+                    <p class="lead">Mestre de mesa</p>
+                    <h1 class="display-1">Pedro Toselli</h1>
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item text-center list-unstyle">
+                            <p class="lead">Jogos</p>
+                            <h2 class="games-quantity display-5">100</h2>   
+                        </li>
+                        <li class="list-group-item text-center list-unstyle">
+                            <p class="lead">Nível</p>
+                            <h2 class="level display-5">50</h2>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+</main>
+<!---Section Hero-Vídeo-End-->
+
+<body>
+    <!---Sobre mim-->
+    <section class="container py-5">
+            <div class="row gy-5">
+                <div class="col-lg-8 col-sm-8">
+                    <h2><strong>Sobre mim</strong></h2>
+                    <p class="lead">
+                        Olá, bem-vindo ao meu perfil na plataforma Iara Games, sou jogador de jogos de tabuleiro a mais de 10 anos, é meu hobby favorito!
+                    </p>
+                    <h5>Meus jogos favoritos</h5>
+                    <ul>
+                        <li>Bang!</li>
+                        <li>Coup</li>
+                        <li>CammelUP</li>
+                        <li>Cangaço!</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <h3><strong>Badges</strong></h3>
+                    <div class="list-group list-group-horizontal">
+                        <div class="list-group-item d-flex text-center row list-unstyle">
+                            <img src="/assets/img/badge-avaliador.png" alt="Jogadores" class="img-badge">
+                            <p class="">Avaliador</p>
+                        </div>
+                        <div class="list-group-item d-flex text-center row list-unstyle">
+                            <img src="/assets/img/badge-mestre-da-mesa.png" alt="Duração" class="img-badge">
+                            <p class="">Mestre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>  
+    <!---Sobre mim-->
+    <section class="container py-5">
+        <div class="row gy-5">
+            <div class="col-lg-8 col-sm-8">
+                <h4><strong>Partidas recentes</strong></h4>
+                <div class="d-flex row gap-4">
+                    <div class="row">
+                        <div class="col-8 col-sm-8 col-lg-10 d-flex align-items-end">
+                            <img src="/assets/img/jogo-perfil-bang.png" alt="Bang! Jogo de tabuleiro">
+                            <p class="ps-4">Bang!</p>
+                        </div>
+                        <div class="d-flex col-4 col-sm-4 col-lg-2 align-items-end">
+                            <p class="text-muted">8 de Maio</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-8 col-sm-8 col-lg-10 d-flex align-items-end">
+                            <img src="/assets/img/jogo-perfil-cangaço.png" alt="Bang! Jogo de tabuleiro">
+                            <p class="ps-4">Cangaço</p>
+                        </div>
+                        <div class="d-flex col-4 col-sm-4 col-lg-2 align-items-end">
+                            <p class="text-muted">26 de Abril</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <h4><strong>Seus jogos</strong></h4>
+                <ul class="list-group">
+                    <li class="d-flex list-group-item list-unstyle">
+                        <img class="sm-img" src="/assets/img/seus-jogos-bang.png" alt="Bang! Jogo de tabuleiro">
+                        <p class="ps-4">Bang!</p>
+                    </li>
+                    <li class="d-flex list-group-item list-unstyle">
+                        <img class="sm-img" src="/assets/img/seus-jogos-coup.png" alt="Bang! Jogo de tabuleiro">
+                        <p class="ps-4">Coup</p>
+                    </li>
+                    <li class="d-flex list-group-item list-unstyle">
+                        <img class="sm-img" src="/assets/img/seus-jogos-cammelup.png" alt="Bang! Jogo de tabuleiro">
+                        <p class="ps-4">CammelUP</p>
+                    </li>
+                    <li class="d-flex list-group-item list-unstyle">
+                        <img class="sm-img" src="/assets/img/seus-jogos-cangaço.png" alt="Bang! Jogo de tabuleiro">
+                        <p class="ps-4">Cangaço</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>  
+    <section class="container py-5">
+        <div class="row gy-5">
+            <div class="col-lg-8 col-sm-8">
+                <h4><strong>Próximas partidas</strong></h4>
+                <div class="d-flex row gap-4">
+                    <div class="row">
+                        <div class="col-8 col-sm-8 col-lg-10 d-flex align-items-end">
+                            <img src="/assets/img/jogo-perfil-bang.png" alt="Bang! Jogo de tabuleiro">
+                            <div class="row">
+                                <p class="ps-4">Bang!</p>
+                                <a class="ps-4" href="#">Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="d-flex col-4 col-sm-4 col-lg-2 align-items-end">
+                            <p class="text-muted">28 de Maio</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <h4><strong>Seus amigos</strong></h4>
+                <ul class="list-group">
+                    <li class="d-flex list-group-item list-unstyle">
+                        <img class="sm-img" src="/assets/img/amigo-esther.png" alt="Bang! Jogo de tabuleiro">
+                        <p class="ps-4">Esther Sitton</p>
+                    </li>
+                    <li class="d-flex list-group-item list-unstyle">
+                        <img class="sm-img" src="/assets/img/amigo-carla.png" alt="Bang! Jogo de tabuleiro">
+                        <p class="ps-4">Carla Worlitz</p>
+                    </li>
+                    <li class="d-flex list-group-item list-unstyle">
+                        <img class="sm-img" src="/assets/img/amigo-pedro.png" alt="Bang! Jogo de tabuleiro">
+                        <p class="ps-4">Pedro Toselli</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>  
+</body>
+
+<footer class="container-xxl p-5">
+    <div class="row">
+        <a class="col-lg-2 col-sm-6 navbar-brand p-0 me-0 me-lg-2" href="index.html" aria-label="Iara Games"><p class="brand">Iara <span>Games</span></p></a>
+        <ul class="col-lg-8 col-sm-6 list-unstyle list-group-horizontal">
+            <li class="list-group-item"><h3>Alunos FIAP</h3></li>
+            <li class="list-group-item">Pedro Freitas RM 554368</li>
+            <li class="list-group-item">Pedro Sitton RM 558081</li>
+            <li class="list-group-item">Carla Worlitz RM 557620</li>
+            <li class="list-group-item">Pedro Toselli RM 99076</li>
+        </ul>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cangaço</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/components/base.css">
+    <link rel="stylesheet" type="text/css" href="/components/style.css">
+    <link rel="stylesheet" type="text/css" href="/components/hero.css">
+    <link rel="stylesheet" type="text/css" href="/components/buttons.css">
+    <link rel="stylesheet" href="/components/profile.css">
+</head>
+
+<!---Colocar o menu lateral-->
+<header class="container-fluid navbar position-absolute z-1">
+    <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+        <a class="navbar-brand p-0 me-0 me-lg-2" href="/index.html" aria-label="Iara Games"><p class="brand">Iara <span>Games</span></p></a>
+        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+            <li class="nav-item col-6 col-lg-auto">
+                <a class="nav-link active py-2 px-0 px-lg-2" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item col-6 col-auto">
+                <a class="nav-link active py-2 px-0 px-lg-2" aria-current="page"" href="#">Cadastre-se</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!---Section Hero-Vídeo-->
+<main class="container-fluid hero-video px- position-relative d-flex flex-column">
+    <video autoplay muted loop class="z-1000">
+        <source src="/assets/video/video-jogo-cangaco.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+    <div class="overlay"></div>
+    <div class="z-3 position-absolute bottom-0 ps-5 pb-5 mt-auto start-0">
+        <p class="lead">Boardgame</p>
+        <h1 class="display-1">Cangaço</h1>
+        <button class="btn btn-primary custom-btn" type="button">Jogar agora</button>
+    </div>
+</main>
+
+<!---Section Hero-Vídeo-End-->
+
+<body>
+    <!---Game image-->
+    <section class="container py-5">
+        <img class="img-fluid rounded" alt="imagem do jogo" src="/assets/img/section-cangaço.png">
+        <hr>
+    </section>
+    <!---Section game-info-->
+    <section class="container py-5">
+            <div class="row gy-5">
+                <div class="col-lg-8 col-sm-8">
+                    <h2><strong>Seja o rei do cangaço!</strong></h2>
+                    <p class="lead">
+                        Junte seus cabras, garanta as posições mais estratégicas para seu bando e colecione muita farinha, munição e cachaça,
+                        mas sem deixar os grupos rivais se aproveitarem das suas sobras.
+                    </p>
+                    <p class="lead">
+                        Cangaço é um jogo de cartas para 2 a 4 jogadores onde você forma e administra um bando de cangaceiros enquanto tenta
+                    atingir a supremacia do sertão, atrapalhando a formação e o poderio de bandos rivais.
+                    </p>
+                    <p class="lead">
+                        Por meio da seleção de cartas e durante três estações, os jogadores formarão seus bandos para atingir os objetivos
+                        do jogo e acumular o maior número de pontos para vencer no final.
+                    </p>
+                    <p class="lead">
+                        Você está pronto para se tornar o Rei do Cangaço?
+                    </p>
+                    <button class="btn btn-primary" type="button">Jogar agora</button>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="list-group">
+                        <div class="list-group-item d-flex align-items-cente col">
+                            <img src="/assets/icons/team-line.svg" alt="Jogadores" class="img-fluid">
+                            <p class="mb-0 px-3">Jogadores 1 a 4</p>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center col">
+                            <img src="/assets/icons/time-line.svg" alt="Duração" class="img-fluid">
+                            <p class="mb-0 px-3">Duração: 30min</p>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center col">
+                            <img src="/assets/icons/archive-line.svg" alt="Peso" class="img-fluid">
+                            <p class="mb-0 px-3">Peso:600g</p>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center col">
+                            <img src="/assets/icons/account-box-line.svg" alt="Idade" class="img-fluid">
+                            <p class="mb-0 px-3">Idade: 12+</p>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center col">
+                            <img src="/assets/icons/ball-pen-line.svg" alt="Autor" class="img-fluid">
+                            <p class="mb-0 px-3">Autor: Sanderson Virgulino</p>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center col">
+                            <img src="/assets/icons/palette-line.svg" alt="Ilustrador" class="img-fluid">
+                            <p class="mb-0 px-3">Ilustrador: Dan Ramos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>  
+    <!---Section game-info End-->
+</body>
+
+<footer class="container-xxl p-5">
+    <div class="row">
+        <a class="col-lg-2 col-sm-6 navbar-brand p-0 me-0 me-lg-2" href="index.html" aria-label="Iara Games"><p class="brand">Iara <span>Games</span></p></a>
+        <ul class="col-lg-8 col-sm-6 list-unstyle list-group-horizontal">
+            <li class="list-group-item"><h3>Alunos FIAP</h3></li>
+            <li class="list-group-item">Gabriel Freitas RM 554368</li>
+            <li class="list-group-item">Esther Sitton RM 558081</li>
+            <li class="list-group-item">Carla Worlitz RM 557620</li>
+            <li class="list-group-item">Pedro Toselli RM 99076</li>
+        </ul>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+
+</html>

@@ -1,0 +1,23 @@
+:root {
+    --body-font: "Poppins", sans-serif;
+    --color-orange: #B43D03;
+    --color-ligth-orange: #E7733F;
+    --color-blue: #0CF0F5;
+    --color-ligth: #fff;
+    --body-color: #001118;
+    --social-color: #3D3B44;
+    --footer-color: #03000C;
+    --wrap-menu-color: #252525;
+}
+
+body {
+    font-family: var(--body-font);
+    line-height: 1.5;
+    background-color: var(--body-color);
+    min-height: 100vh;
+    color: var(--color-ligth);
+}
+
+footer {
+    background-color: var(--footer-color);
+}

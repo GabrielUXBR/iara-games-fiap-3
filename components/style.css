@@ -1,0 +1,60 @@
+.brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.brand span {
+    color: var(--color-ligth-orange);
+}
+
+
+/* aventura em azul no ínício */
+
+.hero-title span {
+    color: var(--color-blue);
+}
+
+/* Efeito nas imagens de perfil */
+
+.profile-img {
+    filter: saturate(0%);
+}
+
+.profile-img:hover {
+    filter: saturate(100%);
+    transition: 0.5s;
+}
+
+.games-quantity {
+    color: var(--color-ligth-orange);
+    font-weight: bold;
+}
+
+.level {
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.list-unstyle {
+    background-color: transparent;
+    border: none;
+}
+
+.img-badge {
+    width: 80%;
+    height: 80%;
+}
+
+.sm-img {
+    width: 10%;
+    height: 10%;
+}
+
+
+.background-color {
+    background-image: url(/assets/img/login-background.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh; /* Definindo altura total da tela */
+}
