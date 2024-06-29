@@ -13,7 +13,7 @@ Explore uma nova era de entretenimento e aventuras com o Iara Games, sua platafo
 
 #### Acesse o site do projeto
 
-➡️ [Clique aqui]() para acessar o site da iara games. ⬅️
+➡️ [Clique aqui](https://GabrielUXBR.github.io/iara-games-fiap-3/) para acessar o site da iara games. ⬅️
 
 #### Execute o projeto localmente:
 1. Clone o repositório: `git clone https://github.com/GabrielUXBR/iara-games-fiap-3.git`.
