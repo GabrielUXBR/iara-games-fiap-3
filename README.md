@@ -1,4 +1,4 @@
-# Iara Games
+# [Iara Games]() 🧜‍♀️
 
 Explore uma nova era de entretenimento e aventuras com o Iara Games, sua plataforma para comprar e descobrir jogos emocionantes, além de se conectar e encontrar mestres de mesa e jogadores próximos a você.
 
@@ -7,10 +7,13 @@ Explore uma nova era de entretenimento e aventuras com o Iara Games, sua platafo
 **Google Maps API**:
   - Utilizada para apresentar ao jogador, um mapa interativo que mostra outros jogadores e mestres de mesa próximos.
 
+*Em caso de dúvidas confira a [Documentação](https://developers.google.com/maps/documentation?hl=pt-br) oficial.*
+
 ## Como utilizar o projeto
 
 #### Acesse o site do projeto
-[Clique aqui]() para acessar o site da iara games.
+
+➡️ [Clique aqui]() para acessar o site da iara games. ⬅️
 
 #### Execute o projeto localmente:
 1. Clone o repositório: `git clone https://github.com/GabrielUXBR/iara-games-fiap-3.git`.
